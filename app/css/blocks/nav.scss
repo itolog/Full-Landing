@@ -1,0 +1,22 @@
+.nav{
+  position: fixed;
+  right: 0;
+  bottom: 50%;
+  color: lime;
+  width: 100px;
+}
+.nav__ul{
+  width: 100%;
+}
+.nav__li{
+  padding: 2px;
+  background: green;
+  border: 1px solid wheat;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 5px;
+  
+}
+.active{
+  background: #000;
+}

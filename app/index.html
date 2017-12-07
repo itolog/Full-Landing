@@ -20,28 +20,46 @@
         <![endif]-->
     <div class="wrap">
       <main class="main">
-        <!-- first section -->
-          <section class="page">
+          <!-- first section -->
+          <section class="page" data-page="1">
 			<div class="content one">
                 <h1>one</h1>
             </div>
           </section>
         <!-- first section  end -->
         <!-- second section -->
-          <section class="page">
+          <section class="page" data-page="2">
               <div class="content two">
                   <h1>two</h1>
               </div>
           </section>
         <!-- second section end-->
           <!--three section-->
-          <section class="page">
-              <div class="content three ">
+          <section class="page" data-page="3">
+              <div class="content three">
                   <h1>three</h1>
               </div>
           </section>
           <!--three section end-->
+          <!--four section-->
+          <section class="page" data-page="4">
+              <div class="content four">
+                  <h1>four</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur corporis eaque eligendi esse minima obcaecati, quae recusandae rerum sed tempore!</p>
+              </div>
+          </section>
+          <!--four section end-->
       </main>
+       <!-- navigation -->
+       <nav class="nav">
+        <ul class="nav__ul">
+            <li class="nav__li active" data-role="1">one</li>
+            <li class="nav__li" data-role="2">two</li>
+            <li class="nav__li" data-role="3">three</li>
+            <li class="nav__li" data-role="4">four</li>
+        </ul>
+    </nav>
+    <!-- navigation end -->
     </div>
 <!-- scripts /////////////////////////////////////// -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>

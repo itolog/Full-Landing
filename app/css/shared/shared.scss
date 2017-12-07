@@ -12,7 +12,7 @@ html, body{
     height: 100%;
     width: 100%;
     position: relative;
-    top: 0%;
+    top: 0;
     transition: top 2s;
 }
 .page{
@@ -37,19 +37,38 @@ html, body{
 .three{
     background: aqua;
 }
+.four{
+    background: blueviolet;
+}
+// animation
 @keyframes scroll{
     0%{
-        transform: translateY(100%);
+        //transform: translateY(1000%);
         opacity: 0;
     }
     50%{
-        transform: scale(0.6)
+        transform: scale(0.7);
+        //transform: rotate(350deg)
+        //transform: translateY(100);
+        //transform: skew(30deg);
     }
     100%{
-        transform: translateY(0);
+        //transform: translateY(0);
         opacity: 1;
     }
 }
 .scroll{
     animation: scroll 2s linear;
+}
+//
+@keyframes roo {
+    0%{
+        transform: translateX(-10000px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.roo{
+   animation: roo 2s linear;;
 }
