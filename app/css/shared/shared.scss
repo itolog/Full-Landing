@@ -1,0 +1,55 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.wrap{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: url("https://techgeek365.com/wp-content/uploads/2017/01/deep_web_search_engines.jpg")100% 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0%;
+    transition: top 2s;
+}
+.page{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.content{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.one{
+    background: coral;
+}
+.two{
+    background: deeppink;
+}
+.three{
+    background: aqua;
+}
+@keyframes scroll{
+    0%{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(0.6)
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.scroll{
+    animation: scroll 2s linear;
+}

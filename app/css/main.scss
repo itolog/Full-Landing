@@ -1,0 +1,21 @@
+//mixins
+@import "mixins/mixins.scss";
+//shared
+@import "shared/**/*";
+//blocks
+@import "blocks/**/*";
+// main style
+body{
+	position: relative;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+li{
+  list-style: none;
+}
